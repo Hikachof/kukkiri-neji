@@ -1,15 +1,18 @@
 <!doctype html>
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>くっきりネジ プライバシーポリシー</title><style>body{font-family:system-ui,'Hiragino Sans','Yu Gothic',sans-serif;max-width:760px;margin:0 auto;padding:24px 16px;line-height:1.8;color:#1c2430;background:#fff}h1{font-size:1.5rem}h2{font-size:1.1rem;margin-top:2em;border-left:6px solid #2a7de1;padding-left:10px}hr{margin:3em 0}small{color:#556}@media(prefers-color-scheme:dark){body{background:#14181f;color:#e6ebf2}small{color:#9aa6b8}}</style></head><body>
 <h1>くっきりネジ プライバシーポリシー</h1>
-<small>最終更新：2026-11-25　運営：Hikachof</small>
+<small>最終更新：2026-11-26　運営：Hikachof</small>
 <p>「くっきりネジ」（以下「本アプリ」）での情報の扱いを説明します。</p>
 <h2>1. 本アプリが自分で集める情報</h2>
-<p>本アプリは、名前・メールアドレス・電話番号・位置情報などの個人を特定する情報を集めません。アカウントの登録もありません。進み具合（クリアした面・コイン・設定）は、お使いの端末の中だけに保存され、運営には送られません。</p>
+<p>名前・メールアドレス・電話番号やアカウントの登録は不要です。進み具合（クリアした面・コイン・設定）は、お使いの端末の中だけに保存されます。</p>
+<h3>地域の天気（任意）</h3>
+<p>最初は晴れの屋外で遊べます。設定で「地域の天気」をオンにし、Androidでおおよその位置情報の利用を許可すると、アプリを使っている間に地域の予報を調べ、背景の空模様を変えます。</p>
+<p>端末は緯度と経度を小数第1位に丸め（南北の間隔は約11 km）、予報を提供するノルウェー気象研究所（MET Norway）に直接送ります。通信にはアプリ名とバージョンも含まれます。MET Norwayは通信元のIPアドレスと送信された座標をノルウェーのオスロでアクセスログに記録します。詳しくは<a href="https://api.met.no/doc/TermsOfService">MET NorwayのAPI利用条件</a>と<a href="https://www.met.no/en/About-us/privacy">プライバシーポリシー</a>をご覧ください。</p>
+<p>端末には、丸めた地域を照合するための識別子（ハッシュ値）、最大24時間分の天気の種類と対象時刻、予報の更新情報を保存します。保存した予報は通信できないときにも使います。設定で「地域の天気」をオフにすると、天気のための位置取得と通信が止まり、端末に保存した予報と地域の識別子が消えます。Androidのアプリ設定でも位置情報の許可を取り消せます。</p>
 <h2>2. 広告について</h2>
-<p>本アプリは Google AdMob の広告を表示します。広告の配信のために、Google とそのパートナーが、広告 ID・端末の情報（機種・OS・言語）・おおよその地域（IP アドレスから）・広告の表示やタップの記録を集めることがあります。くわしくは Google の「Google のサービスを使用するサイトやアプリから収集した情報の Google による使用」（https://policies.google.com/technologies/partner-sites）をご覧ください。</p>
-<p>広告 ID は、端末の設定（設定 → Google → 広告）で、リセットまたは削除できます。</p>
+<p>バージョン1.0には広告の表示も、広告目的での情報の収集・送信もありません。</p>
 <h2>3. アプリ内の購入について</h2>
-<p>アプリ内の購入（広告を消す・コインなど）は Google Play の決済で行われます。カード番号などの支払いの情報は Google が扱い、運営には届きません。</p>
+<p>バージョン1.0は無料です。ゲーム内で獲得するコインは、お金を使わずにアイテムと交換できます。</p>
 <h2>4. お子さまについて</h2>
 <p>本アプリは、13 歳未満のお子さまを主な対象にしていません。お子さまの個人情報を、知りながら集めることはありません。</p>
 <h2>5. データの削除</h2>
@@ -20,13 +23,17 @@
 <p>hikachofaw@gmail.com</p>
 <hr>
 <h1>Kukkiri Neji – Privacy Policy</h1>
-<small>Last updated: 2026-11-25 / Operator: Hikachof</small>
+<small>Last updated: 2026-11-26 / Operator: Hikachof</small>
 <h2>1. Information we collect</h2>
-<p>The app itself does not collect personal information such as your name, email address, phone number or location, and has no account system. Game progress (cleared levels, coins, settings) is stored only on your device and is not sent to us.</p>
+<p>You can play without an account or providing your name, email address or phone number. Game progress (cleared levels, coins and settings) stays on your device.</p>
+<h3>Optional local weather</h3>
+<p>The game starts with a sunny outdoor scene. If you turn on local weather in the game settings and allow approximate location in Android, the app checks the forecast while you use the app and changes the scenery to reflect it.</p>
+<p>Your device rounds latitude and longitude to one decimal place (about 11 km between grid points north to south). It sends these coordinates directly to the forecast provider, the Norwegian Meteorological Institute (MET Norway). The request also identifies the app and its version. MET Norway records your connection’s IP address and the coordinates in access logs in Oslo, Norway. See <a href="https://api.met.no/doc/TermsOfService">MET Norway’s API terms</a> and its <a href="https://www.met.no/en/About-us/privacy">privacy policy</a>.</p>
+<p>The app stores an identifier derived from the rounded region (a hash), up to 24 hours of weather categories and forecast times, and forecast update information on your device. It can use a valid saved forecast while offline. Turning local weather off stops location checks and forecast requests and deletes the saved forecasts and region identifiers from your device. You can also revoke location permission in Android’s app settings.</p>
 <h2>2. Advertising</h2>
-<p>The app shows ads through Google AdMob. To deliver ads, Google and its partners may collect the advertising ID, device information (model, OS, language), approximate region (from the IP address) and ad interaction data. See https://policies.google.com/technologies/partner-sites. You can reset or delete your advertising ID in your device settings.</p>
+<p>Version 1.0 does not display ads or collect or send information for advertising.</p>
 <h2>3. In-app purchases</h2>
-<p>Purchases are processed by Google Play. We never receive your payment details.</p>
+<p>Version 1.0 is free. Coins earned through play can be exchanged for in-game items. No real money is involved.</p>
 <h2>4. Children</h2>
 <p>The app is not directed primarily at children under 13, and we do not knowingly collect personal information from children.</p>
 <h2>5. Deleting data</h2>
